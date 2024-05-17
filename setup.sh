@@ -12,13 +12,14 @@ brew install docker
 brew install git
 brew install python3
 brew install bat
+brew install fzf
 
 # Github Downloads
 mkdir github
 cd github
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/dracula/iterm.git
+git clone https://github.com/Aloxaf/fzf-tab.git
 cd ..
 mv .vimrc ..
 mv .zshrc ..
-source .zshrc
