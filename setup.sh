@@ -13,6 +13,7 @@ brew install git
 brew install python3
 brew install bat
 brew install fzf
+brew install most
 
 # Github Downloads
 mkdir github
