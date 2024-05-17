@@ -1,2 +1,2 @@
 # MacSetup
-Source .zshrc
+Run from home directory and source .zshrc after
