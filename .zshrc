@@ -28,7 +28,7 @@ export PATH="$PATH:/Users/udaysama/.local/bin"
 source /Users/udaysama/MacSetup/github/fzf-tab/fzf-tab.plugin.zsh
 
 # Sets the history settings so less stuff gets stored in history
-HISTORY_IGNORE="(bat*|echo*|ls*|history*|cd*|pwd|vim*|code*|head*|tail*|bragi*|open*)"
+HISTORY_IGNORE="(bat*|echo*|ls*|history*|cd*|pwd|vim*|code*|head*|tail*|open*)"
 HISTSIZE=100000000
 SAVEHIST=100000000
 setopt INC_APPEND_HISTORY    # Write to the history file immediately, not when the shell exits.
