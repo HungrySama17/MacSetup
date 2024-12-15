@@ -21,11 +21,12 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 # Created by `pipx` on 2023-10-17 15:21:11
 export PATH="$PATH:/Users/udaysama/.local/bin"
 
+# Fuzzy tab completion
+# https://github.com/junegunn/fzf
+source /Users/udaysama/MacSetup/github/fzf-tab/fzf-tab.plugin.zsh
+
 # Gets fuzzy finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Fuzzy tab completion
-source /Users/udaysama/MacSetup/github/fzf-tab/fzf-tab.plugin.zsh
 
 # Sets the history settings so less stuff gets stored in history
 HISTORY_IGNORE="(bat*|echo*|ls*|history*|cd*|pwd|vim*|code*|head*|tail*|open*)"
